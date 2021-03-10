@@ -1,0 +1,130 @@
+--- !ruby/object:Gem::Specification
+name: bay_jekyll_theme
+version: !ruby/object:Gem::Version
+  version: 1.0.16
+platform: ruby
+authors:
+- Eliott Vincent
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2021-02-23 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: jekyll
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '4.0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '4.0'
+- !ruby/object:Gem::Dependency
+  name: bundler
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '2.0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '2.0'
+description: 
+email:
+- hello@eliottvincent.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- CHANGELOG.md
+- LICENSE.md
+- README.md
+- _includes/draft-banner.html
+- _includes/foot.html
+- _includes/footer.html
+- _includes/head.html
+- _includes/header.html
+- _includes/wechat-widget.html
+- _layouts/blog.html
+- _layouts/default.html
+- _layouts/home.html
+- _layouts/post.html
+- _layouts/work.html
+- _sass/_404.scss
+- _sass/_base.scss
+- _sass/_blog.scss
+- _sass/_layout.scss
+- _sass/_post.scss
+- _sass/_site.scss
+- _sass/_work.scss
+- assets/css/main.scss
+- assets/img/content/post-example/Banner.jpg
+- assets/img/content/post-example/Banner@2x.jpg
+- assets/img/icons/dribbble.png
+- assets/img/icons/dribbble@2x.png
+- assets/img/icons/email.png
+- assets/img/icons/email@2x.png
+- assets/img/icons/facebook.png
+- assets/img/icons/facebook@2x.png
+- assets/img/icons/github.png
+- assets/img/icons/github@2x.png
+- assets/img/icons/keybase.png
+- assets/img/icons/keybase@2x.png
+- assets/img/icons/linkedin.png
+- assets/img/icons/linkedin@2x.png
+- assets/img/icons/rss.png
+- assets/img/icons/rss@2x.png
+- assets/img/icons/twitter.png
+- assets/img/icons/twitter@2x.png
+- assets/img/icons/wechat.png
+- assets/img/icons/wechat@2x.png
+- assets/img/icons/weibo.png
+- assets/img/icons/weibo@2x.png
+- assets/img/menu.png
+- assets/img/menu@2x.png
+- assets/img/profile-pic.jpg
+- assets/img/profile-pic@2x.jpg
+- assets/img/title.png
+- assets/img/title@2x.png
+- assets/img/wechat-qr-code.png
+- assets/img/wechat-qr-code@2x.png
+- assets/img/work/sand.png
+- assets/img/work/sand@2x.png
+- assets/img/work/water.png
+- assets/img/work/water@2x.png
+- assets/js/site.js
+- assets/js/vendor/cash-4.1.5.min.js
+- assets/js/vendor/retina-1.3.0.min.js
+homepage: https://github.com/eliottvincent/bay
+licenses:
+- MIT
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubygems_version: 3.0.3
+signing_key: 
+specification_version: 4
+summary: A simple and minimal Jekyll theme..
+test_files: []
